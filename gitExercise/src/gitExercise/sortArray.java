@@ -21,6 +21,14 @@ public class sortArray {
 			System.out.println(numArray[i]);
 		}
 		Arrays.sort(fruits);
-		System.out.println(Arrays.toString(fruits));
+		
+		//@Test
+		if(Arrays.equals(fruits, sortedFruits)) {
+			System.out.println(Arrays.toString(fruits));
+			System.out.println("The array is sorted in ascending order");
+		}
+		else {
+			System.out.println("The array is not sorted");
+		}
 	}
 }
