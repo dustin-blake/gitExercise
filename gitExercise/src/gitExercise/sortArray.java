@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class sortArray {
 
 	public static void main(String[] args) {
+		//This is a test for commit ability
 		int [] numArray = {6, 4, 89, 14, 63, 20, 27, 99, 1, 55, 70};
 		int [] sortedNum = {1, 4, 6, 14, 20, 27, 55, 63, 70, 89, 99};
 		int [] newArray = new int[11];
